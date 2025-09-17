@@ -2,7 +2,8 @@ const Notification = require("../models/notificationModel");
 const Artwork = require('../models/artworksModel');
 const User = require("../models/userModel");
 const Order = require("../models/orderModel")
-const Stripe = require("stripe")(process.env.stripeKey);
+const Stripe = require("stripe");
+const stripe = Stripe('sk_test_51S4btTJRatU77xlLCa2QbSy2seaKj6Ripo2R0ceDkwR1sodbVXkyENCQ7pCZY7GtULHIoB07ANGIT0w25zz1ZQwT00cIt5iDrf');
 
 
 
